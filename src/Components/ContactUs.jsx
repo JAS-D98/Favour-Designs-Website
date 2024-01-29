@@ -6,16 +6,16 @@ import Form from "./Form"
 const ContactUs = () => {
     const aboutSentence = "We Would Love to Hear from You ❤".split("")
   return (
-    <div className="p-8">
+    <div>
         <div className='bg-gradient-to-t from-black to-red-600  h-64 p-8 bg-cover bg-center flex flex-col justify-center items-center text-2xl sm:text-6xl text-white font-semibold'>
             <Banner sentence={aboutSentence}/>
             <p className="text-xl text-center">Reach Us via calls, text and inperson visits</p>
         </div>
-        <div className="items-center text-center mb-6">
+        <div className="items-center text-center mb-6 sm:p-8">
            <h2 className="sm:text-2xl text-xl font-semibold text-slate-600 mb-6">Follow Us on this Media Platforms.</h2>
            <div className="flex w-full justify-center gap-20">
             {socialMedia.map((Media)=>(
-                <div className="text-center flex flex-col items-center justify-center gap-4">
+                <div className="text-center flex flex-col items-center justify-center sm:gap-4 gap-2">
                     <div className="bg-gradient-to-t from-black to-red-600 cursor-pointer hover:scale-125 ease-in text-white w-11 h-11 rounded-full p-2 flex justify-center">
                         <img src={Media.src} alt={Media.alt}/>
                     </div>

@@ -13,7 +13,7 @@ const Form = () => {
         alert("Enter all the fields!")
     }
   return (
-    <div>
+    <div className='p-2 w-full'>
         <form method='post' onSubmit={handleSubmit} className='flex flex-col items-center gap-4 bg-slate-200 p-2 sm:p-4 rounded-lg'>
             <h1 className='text-2xl text-slate-600'>Contact <span className='text-firebrick'>Here</span></h1>
             <div className='flex items-center gap-2'>

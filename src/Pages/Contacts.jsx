@@ -3,7 +3,7 @@ import ContactUs from '../Components/ContactUs'
 
 const Contacts = () => {
   return (
-    <div>
+    <div className='w-full p-8'>
         <ContactUs/>
     </div>
   )

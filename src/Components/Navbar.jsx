@@ -22,7 +22,7 @@ const Navbar = () => {
               {navLinks.map((item)=>(
                 <li key={item.label} className="relative hover:text-slate-600 font-normal text-xl uppercase mr-0 mb-12"><a href={item.href} className="font-montserrat leading-normal text-lg text-slate-gray font-semibold">{item.label}</a></li>
               ))}
-              <a href="/" className="text-xl font-bold italic sm:text-3xl sm:flex sm:flex-row sm:items-center justify-center mt-24"><span className="text-white-600"><h1 className="text-4xl -mb-6 mr-3">F</h1> D</span> Favoured Designs</a>
+              <a href="/" className="text-xl font-bold italic sm:text-3xl sm:flex sm:flex-row sm:items-center justify-center mt-40"><span className="text-white-600"><h1 className="text-4xl -mb-6 mr-3">F</h1> D</span> Favoured Designs</a>
             </ul>
               </div>
             </div>

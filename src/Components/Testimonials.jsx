@@ -1,5 +1,6 @@
 import { reviews } from "../constants"
-import TestimonialsCard from "../components/TestimonialsCard"
+import TestimonialsCard from "./TestimonialsCard"
+
 
 const Testimonials = () => {
   return (

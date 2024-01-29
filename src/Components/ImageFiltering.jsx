@@ -19,7 +19,7 @@ const ImageFiltering = () => {
       : AllDesigns.filter((design) => design.categories && design.categories.includes(activeFilter));
 
   return (
-    <div className='flex flex-col justify-between'>
+    <div className='flex flex-col justify-between p-8'>
       <DesignsBanner handleFilterChange={handleFilterChange} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       {/* Add padding to the DesignGallery to make space for the DesignsBanner */}
       <div className="p-8 md:p-12 lg:p-20 xl:p-30 mt-24 min-h-screen">

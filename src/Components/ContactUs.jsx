@@ -6,7 +6,7 @@ import Form from "./Form"
 const ContactUs = () => {
     const aboutSentence = "We Would Love to Hear from You ❤".split("")
   return (
-    <div>
+    <div className="p-8">
         <div className='bg-gradient-to-t from-black to-red-600  h-64 p-8 bg-cover bg-center flex flex-col justify-center items-center text-2xl sm:text-6xl text-white font-semibold'>
             <Banner sentence={aboutSentence}/>
             <p className="text-xl text-center">Reach Us via calls, text and inperson visits</p>

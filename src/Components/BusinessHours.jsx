@@ -44,7 +44,7 @@ const BusinessHours = () => {
   };
 
   return (
-    <div className="text-left text-slate-600 md:text-xl md:leading-normal ml-2 md:ml-40">
+    <div className="text-left text-slate-600 md:text-xl md:leading-normal ml-2 md:ml-40 min-w-">
       <h2 className="text-[10px]">Open Monday - Saturday <br/><span className="font-bold">(8:00AM to 6:30PM)</span></h2>
       <p className="text-[9px] font-semibold">Today is {currentDay} {currentTime}</p>
       {isOpen ? (

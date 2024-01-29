@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li key={item.label} className="relative hover:text-firebrick"><a href={item.href} className="font-montserrat leading-normal md:text-6 text-slate-gray font-semibold">{item.label}</a></li>
             ))}
             </ul>
-            <BusinessHours/>
+            <BusinessHours className="text-left"/>
             <div className="lg:hidden flex flex-1 justify-end items-center">
               <img src={toggle ? close : hamburger} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={()=> setToggle((prev)=>!prev)}/>
               <div className={`${toggle ? 'flex' :'hidden'} p-6 bg-gradient-to-t from-black to-red-600 absolute top-20 right-0 my-1 min-w-[300px] h-screen rounded-xl sidebar`} >

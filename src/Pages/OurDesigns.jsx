@@ -5,7 +5,7 @@ import ImageFiltering from '../Components/ImageFiltering'
 
 const OurDesigns = () => {
   return (
-    <div className='w-full p-8'>
+    <div>
         <ImageFiltering/>
     </div>
   )

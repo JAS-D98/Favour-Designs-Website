@@ -24,7 +24,7 @@ const ContactUs = () => {
             ))}
            </div>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-center sm:items-start gap-6 sm:gap-10 p-8">
+        <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-center sm:items-start gap-6 sm:gap-10 p-8 mx-2">
             <div className="flex flex-col p-8 gap-4">
             {ContactLordIcon.map((ContactIcon)=>(
                 <div className="flex items-center gap-8 text-slate-600">

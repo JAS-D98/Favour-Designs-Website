@@ -19,6 +19,10 @@ const Form = () => {
       setAlert({ type: 'error', message: 'Enter all the fields!' });
     } else {
       setAlert({ type: 'success', message: 'Form submitted successfully!' });
+
+      setTimeout(() => {
+        setAlert(null);
+      }, 5000);
     }
   };
 

@@ -311,7 +311,7 @@ export const socialMedia = [
 ];
 
 export const ContactLordIcon = [
-    { src: Phone, alt: "Walkie Tokie", text:"+254 706 235 388 / +254 725 581 272" },
+    { src: Phone, alt: "Walkie Tokie", text:"+254 706 235 388 / \n +254 725 581 272" },
     { src: Mail, alt: "Mail", text:"favourdesigns@customer.com"},
     { src: Location, alt: "Location", text:"Nyeri Town - Gakere Road"},
 ];

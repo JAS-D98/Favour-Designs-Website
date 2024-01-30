@@ -31,7 +31,7 @@ const Form = () => {
       <form
         method='post'
         onSubmit={handleSubmit}
-        className='flex flex-col items-center gap-4 bg-slate-200 p-2 sm:p-4 rounded-lg'
+        className='flex mx-auto max-w-sm flex-col items-center gap-4 bg-slate-200 p-2 sm:p-4 rounded-lg'
       >
         <h1 className='text-2xl text-slate-600'>
           Contact <span className='text-firebrick'>Here</span>

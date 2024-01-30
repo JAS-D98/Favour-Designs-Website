@@ -11,7 +11,7 @@ const ContactUs = () => {
             <Banner sentence={aboutSentence}/>
             <p className="text-xl text-center">Reach Us via calls, text and inperson visits</p>
         </div>
-        <div className="items-center text-center mb-6 p-8 sm:p-8">
+        <div className="items-center text-center mb-6 sm:p-8">
            <h2 className="sm:text-2xl text-xl font-semibold text-slate-600 mb-6">Follow Us on this Media Platforms.</h2>
            <div className="flex w-full justify-center gap-8 sm:gap-20">
             {socialMedia.map((Media)=>(
@@ -24,8 +24,8 @@ const ContactUs = () => {
             ))}
            </div>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-center sm:items-start gap-6 sm:gap-10 p-8 mx-2">
-            <div className="flex flex-col p-8 gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-center sm:items-start gap-6 sm:gap-10 p-8">
+            <div className="flex flex-col gap-4">
             {ContactLordIcon.map((ContactIcon)=>(
                 <div className="flex items-center gap-8 text-slate-600">
                     <div className="bg-gradient-to-t from-black to-red-600 w-11 h-11 rounded-full p-2">

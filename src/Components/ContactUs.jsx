@@ -25,7 +25,7 @@ const ContactUs = () => {
            </div>
         </div>
         <div className="flex flex-col sm:flex-row items-center justify-between sm:justify-center sm:items-start gap-6 sm:gap-10 p-8">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col p-8 gap-4">
             {ContactLordIcon.map((ContactIcon)=>(
                 <div className="flex items-center gap-8 text-slate-600">
                     <div className="bg-gradient-to-t from-black to-red-600 w-11 h-11 rounded-full p-2">

@@ -3,7 +3,7 @@ import DesignsCard from './DesignsCard';
 
 const DesignGallery = ({ designs, searchTerm }) => {
   return (
-    <div className="mt-10 sm:mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 w-full">
+    <div className="mt-12 sm:mt-12 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 w-full">
       {designs
         .filter((design) => {
           if (searchTerm === '') {

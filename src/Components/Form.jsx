@@ -47,15 +47,15 @@ const Form = () => {
           </div>
         )}
         <div className='flex flex-col gap-2 w-full'>
-        <div className='flex justify-start sm:items-center  gap-2 flex-col'>
+        <div className='flex justify-start  gap-2 flex-col'>
                 <label htmlFor="name" className='text-xl text-slate-600'>Name:</label>
                 <input type="text" name="name" onChange={handleChange} id="" value={data.name} placeholder='Enter Your Name Here' className='w-full p-2 px-2 rounded-full bg-firebrick text-white outline-none'/>
             </div>
-            <div className='flex justify-start sm:items-center gap-2 flex-col'>
+            <div className='flex justify-start gap-2 flex-col'>
                 <label htmlFor="email" className='text-xl text-slate-600'>Email:</label>
                 <input type="email" name="email" onChange={handleChange} id="" value={data.email} placeholder='Enter Your Email Address' className='w-full p-2 px-2 rounded-full bg-firebrick text-white outline-none'/>
             </div>
-            <div className='flex justify-start sm:items-center gap-2 flex-col'>
+            <div className='flex justify-start gap-2 flex-col'>
                 <label htmlFor="email" className='text-xl text-slate-600'>Phone:</label>
             <input type="phone" name="phone" onChange={handleChange} id="" value={data.phone} placeholder='Enter your Phone Number' className='w-full p-2 px-2 rounded-full bg-firebrick text-white outline-none'/>
             </div>

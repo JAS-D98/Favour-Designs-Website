@@ -38,7 +38,7 @@ const ContactUs = () => {
             <img src={Globe} alt="Rotating Globe" />
             </div>
             </div>
-            <div className="max-w-[600px]">
+            <div className="max-w-[600px] sm:w-full">
             <Form/>
             </div>
         </div>

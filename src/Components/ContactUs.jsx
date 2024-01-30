@@ -11,7 +11,7 @@ const ContactUs = () => {
             <Banner sentence={aboutSentence}/>
             <p className="text-xl text-center">Reach Us via calls, text and inperson visits</p>
         </div>
-        <div className="items-center text-center mb-6 sm:p-8">
+        <div className="items-center text-center mb-6 p-8 sm:p-8">
            <h2 className="sm:text-2xl text-xl font-semibold text-slate-600 mb-6">Follow Us on this Media Platforms.</h2>
            <div className="flex w-full justify-center gap-8 sm:gap-20">
             {socialMedia.map((Media)=>(

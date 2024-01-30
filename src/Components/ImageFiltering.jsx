@@ -20,8 +20,7 @@ const ImageFiltering = () => {
   return (
     <div className='flex flex-col justify-between'>
       <DesignsBanner handleFilterChange={handleFilterChange} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      {/* Add padding to the DesignGallery to make space for the DesignsBanner */}
-      <div className="p-8 md:p-12 lg:p-20 xl:p-30 mt-24 min-h-screen">
+      <div className="p-4 md:p-8 lg:p-12 xl:p-16 mt-16 min-h-screen">
         <DesignGallery designs={filteredDesigns} searchTerm={searchTerm} />
       </div>
     </div>

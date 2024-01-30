@@ -31,7 +31,7 @@ const ContactUs = () => {
                     <div className="bg-gradient-to-t from-black to-red-600 w-11 h-11 rounded-full p-2">
                         <img src={ContactIcon.src} alt={ContactIcon.alt}/>
                     </div>
-                    <p className="text-firebrick">{ContactIcon.text}</p>
+                    <p className="text-firebrick">{ContactIcon.text}</p><br />
                 </div>
             ))}
             <div>

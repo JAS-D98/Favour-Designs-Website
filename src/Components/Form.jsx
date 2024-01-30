@@ -42,7 +42,7 @@ const Form = () => {
             {alert.message}
           </div>
         )}
-        <div className='flex flex-col sm:flex-row gap-2 w-full'>
+        <div className='flex flex-col gap-2 w-full'>
         <div className='flex items-center gap-2'>
                 <label htmlFor="name" className='text-xl text-slate-600'>Name:</label>
                 <input type="text" name="name" onChange={handleChange} id="" value={data.name} placeholder='Enter Your Name Here' className='w-80 sm:w-96 p-2 px-2 rounded-full bg-firebrick text-white outline-none'/>

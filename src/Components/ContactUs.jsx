@@ -7,7 +7,7 @@ const ContactUs = () => {
     const aboutSentence = "We Would Love to Hear from You ❤".split("")
   return (
     <div>
-        <div className='bg-gradient-to-t from-black to-red-600  h-64 p-8 bg-cover bg-center flex flex-col justify-center items-center text-2xl sm:text-6xl text-white font-semibold'>
+        <div className='bg-gradient-to-t from-black to-red-600  h-64 p-8 bg-cover bg-center flex flex-col text-center justify-center items-center text-2xl sm:text-6xl text-white font-semibold'>
             <Banner sentence={aboutSentence}/>
             <p className="text-xl text-center">Reach Us via calls, text and inperson visits</p>
         </div>
@@ -38,7 +38,7 @@ const ContactUs = () => {
             <img src={Globe} alt="Rotating Globe" />
             </div>
             </div>
-            <div className="">
+            <div className="max-w-[600px]">
             <Form/>
             </div>
         </div>

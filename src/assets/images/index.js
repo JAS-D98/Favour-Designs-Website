@@ -47,6 +47,28 @@ import customer2 from './customer2.svg'
 import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
 
+import Jas1 from './Jas1.jpg'
+import Linah1 from './Linah1.jpg'
+import Linah2 from './Linah2.jpg'
+import Linah3 from './Linah3.jpg'
+import Linah4 from './Linah4.jpg'
+import Linah5 from './Linah5.jpg'
+import Linah6 from './Linah6.jpg'
+import Linah7 from './Linah7.jpg'
+import Linah8 from './Linah8.jpg'
+import Linah9 from './Linah9.jpg'
+import Linah10 from './Linah10.jpg'
+import Linah11 from './Linah11.jpg'
+import Linah12 from './Linah12.jpg'
+import Linah13 from './Linah13.jpg'
+import Linah14 from './Linah14.jpg'
+import Linah15 from './Linah15.jpg'
+import Linah16 from './Linah16.jpg'
+import Linah17 from './Linah17.jpg'
+import Linah18 from './Linah18.jpg'
+import Linah19 from './Linah19.jpg'
+
+
 
 export {
     HeroImage,
@@ -96,4 +118,25 @@ export {
 
     footerLogo,
     headerLogo,
+
+    Jas1,
+    Linah1,
+    Linah2,
+    Linah3,
+    Linah4,
+    Linah5,
+    Linah6,
+    Linah7,
+    Linah8,
+    Linah9,
+    Linah10,
+    Linah11,
+    Linah12,
+    Linah13,
+    Linah14,
+    Linah15,
+    Linah16,
+    Linah17,
+    Linah18,
+    Linah19,
 }

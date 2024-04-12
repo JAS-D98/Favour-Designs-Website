@@ -1,5 +1,25 @@
 import { facebook, instagram, twitter, homeGif, schoolGif, editGif, consultationGif, champagneGif, coinsGif, Mail, Location, Phone, } from "../assets/icons";
-import { Apron2, BedCover1, Chef2, Chef3, Curtain1, Curtain3, Curtain5, Man1, Man4, Nurse2,Nurse3, Nurse4, PillowCase1,PillowCase5, PillowCase7, Women1, Women2, Women4, Women7, Women9, customer1, customer2 } from "../assets/images";
+import { Apron2, BedCover1, Chef2, Chef3, Curtain1, Curtain3, Curtain5, Man1, Man4, Nurse2,Nurse3, Nurse4, PillowCase1,PillowCase5, PillowCase7, Women1, Women2, Women4, Women7, Women9, customer1, customer2,    Jas1,
+    Linah1,
+    Linah2,
+    Linah3,
+    Linah4,
+    Linah5,
+    Linah6,
+    Linah7,
+    Linah8,
+    Linah9,
+    Linah10,
+    Linah11,
+    Linah12,
+    Linah13,
+    Linah14,
+    Linah15,
+    Linah16,
+    Linah17,
+    Linah18,
+    Linah19,
+ } from "../assets/images";
 import { HeroImage } from "../assets/images";
 
 
@@ -74,7 +94,6 @@ export const imageDescriptions = [
     'Image 12',
     'Image 13',
     'Image 14',
-    // Add more descriptions as needed
   ];
 /* End of Carousel Section */
 
@@ -217,6 +236,126 @@ export const AllDesigns = [
         imgURL:Women4,
         name: "Modern Dress",
         categories: "Women",
+    },
+    {
+        id: 10,
+        imgURL:Linah1,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 11,
+        imgURL:Linah2,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 12,
+        imgURL:Linah3,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 13,
+        imgURL:Linah4,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 14,
+        imgURL:Linah5,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 15,
+        imgURL:Linah6,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 16,
+        imgURL:Linah7,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 17,
+        imgURL:Linah8,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 18,
+        imgURL:Linah9,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 19,
+        imgURL:Linah10,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 20,
+        imgURL:Linah11,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 21,
+        imgURL:Linah12,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 22,
+        imgURL:Linah13,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 23,
+        imgURL:Linah14,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 24,
+        imgURL:Linah15,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 25,
+        imgURL:Linah16,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 26,
+        imgURL:Linah17,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 27,
+        imgURL:Linah18,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 28,
+        imgURL:Linah19,
+        name: "Modern Dress",
+        categories: "Women",
+    },
+    {
+        id: 29,
+        imgURL:Jas1,
+        name: "Modern Men Designs",
+        categories: "Men",
     },
 ];
 

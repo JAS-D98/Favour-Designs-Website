@@ -39,6 +39,7 @@ import Nurse4 from './Nurse 4.jpg'
 import Africa from './Africa.jpg'
 import AfricanMan from './African Man.jpg'
 import AfricanWoman from './African Woman.jpg'
+import logo from './logo.jpg'
 
 
 import customer1 from './customer1.jpeg'
@@ -71,6 +72,7 @@ import Linah19 from './Linah19.jpg'
 
 
 export {
+    logo,
     HeroImage,
     BedCover1,
     Curtain1,

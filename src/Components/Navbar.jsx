@@ -2,13 +2,15 @@ import { close, hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 import BusinessHours from '../Components/BusinessHours'
 import { useState } from "react";
+import { logo } from "../assets/images";
 
 const Navbar = () => {
   const [toggle, setToggle]=useState(false);
   return (
     <header className="px-6 py-2 sm:px-8 sm:py-4 z-10 w-full border-b-2 shadow-sm bg-white fixed">
         <nav className="flex justify-between items-center max-container">
-            <a href="/" className="text-[10px] font-bold italic sm:text-xl sm:ml-6 sm:flex sm:flex-row sm:items-center justify-center md:text-2xl"><span className="text-firebrick"><h1 className="text-2xl sm:text-4xl -mb-6 mr-3">F</h1> D</span> Favoured Designs</a>
+          <a href="/" className="flex items-center"><img src={logo} alt="" width={50} />Favoured Designs</a>
+            {/* <a href="/" className="text-[10px] font-bold italic sm:text-xl sm:ml-6 sm:flex sm:flex-row sm:items-center justify-center md:text-2xl"><span className="text-firebrick"><h1 className="text-2xl sm:text-4xl -mb-6 mr-3">F</h1> D</span> Favoured Designs</a> */}
             <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden md:ml-6 md:gap-10">
             {navLinks.map((item)=>(
                 <li key={item.label} className="relative hover:text-firebrick"><a href={item.href} className="font-montserrat leading-normal md:text-6 text-slate-gray font-semibold">{item.label}</a></li>

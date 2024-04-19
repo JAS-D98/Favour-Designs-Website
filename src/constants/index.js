@@ -258,97 +258,97 @@ export const AllDesigns = [
     {
         id: 13,
         imgURL:Linah4,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 14,
         imgURL:Linah5,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 15,
         imgURL:Linah6,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 16,
         imgURL:Linah7,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 17,
         imgURL:Linah8,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 18,
         imgURL:Linah9,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 19,
         imgURL:Linah10,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 20,
         imgURL:Linah11,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 21,
         imgURL:Linah12,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 22,
         imgURL:Linah13,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 23,
         imgURL:Linah14,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 24,
         imgURL:Linah15,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 25,
         imgURL:Linah16,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 26,
         imgURL:Linah17,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 27,
         imgURL:Linah18,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
         id: 28,
         imgURL:Linah19,
-        name: "Modern Dress",
+        name: "Modern Designs",
         categories: "Women",
     },
     {
@@ -363,7 +363,7 @@ export const services = [
     {
         imgURL: coinsGif,
         label: "Custom Tailoring",
-        subtext: "We craft garments tailored to each individuals measurements and style preferences of each client. From suits to dresses, each piece is meticulously created to ensure a perfect fit and a personalized look that reflects your taste."
+        subtext: "We craft garments tailored to each individuals measurements and style preferences of each client. From suits to Dresses, each piece is meticulously created to ensure a perfect fit and a personalized look that reflects your taste."
     },
     {
         imgURL: editGif, //security

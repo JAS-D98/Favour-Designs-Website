@@ -14,8 +14,8 @@
 }
 /* styles.css */
 .rotating-globe {
-  animation: spin 5s linear infinite; /* Adjust the duration and timing function as needed */
-  transform-style: preserve-3d; /* Ensures smooth 3D animation */
+  animation: spin 5s linear infinite; 
+  transform-style: preserve-3d;
 }
 
 @keyframes spin {

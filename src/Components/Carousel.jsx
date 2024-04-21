@@ -14,12 +14,14 @@ const Carousel = () => {
     <Slider {...settings} className="my-4" ref={slider}>
       {slides.map((slide, index) => (
         <div key={index} className="w-full p-2 sm:p-4 hover:cursor-pointer">
+          <div className='rounded-md border shadow-md'>
           <img
             src={slide}
             alt={`slide-${index}`}
-            className="w-80 h-80 object-fill rounded-md shadow-md sm:ml-6 sm:mx-auto"
+            className="w-full h-80 object-fill rounded-md sm:mx-auto"
           />
-          <p className="mt-2 text-center text-slate-600">{imageDescriptions[index]}</p>
+          <p className="mt-2 text-center text-slate-600 mx-1">{imageDescriptions[index]}</p>
+          </div>
         </div>
       ))}
     </Slider>

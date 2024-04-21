@@ -80,8 +80,8 @@ export const slides =[
 ]
 
 export const imageDescriptions = [
-    'Image 1',
-    'Image 2',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, neque aliquam ad est odit nam placeat, ipsa eligendi molestiae cum eaque ea reprehenderit adipisci, illum sit mollitia nemo debitis? Adipisci.',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     'Image 3',
     'Image 4',
     'Image 5',
@@ -94,6 +94,7 @@ export const imageDescriptions = [
     'Image 12',
     'Image 13',
     'Image 14',
+    'Image 15',
   ];
 /* End of Carousel Section */
 

@@ -80,8 +80,8 @@ export const slides =[
 ]
 
 export const imageDescriptions = [
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, neque aliquam ad est odit nam placeat, ipsa eligendi molestiae cum eaque ea reprehenderit adipisci, illum sit mollitia nemo debitis? Adipisci.',
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'Image 1',
+    'Image 2',
     'Image 3',
     'Image 4',
     'Image 5',

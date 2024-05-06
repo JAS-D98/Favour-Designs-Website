@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
         </div>
-       <a href="https://jasperwambuguport.netlify.app"><p className="mt-2 items-center flex w-full justify-center">Created and Designed by &nbsp;<span className="text-firebrick italic"> Jasper Wambugu</span></p></a> 
+       <a href="https://jasperwambuguport.netlify.app"><p className="mt-2 items-center flex w-full justify-center">Designed &amp; Developed by &nbsp;<span className="text-firebrick italic"> Jasper Wambugu</span></p></a> 
     </footer>
   )
 }
